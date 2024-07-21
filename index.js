@@ -7,10 +7,10 @@ const app = express();
 const port = process.env.PORT || 3000; // Asegúrate de que tu aplicación escuche en el puerto proporcionado por Render
 
 const pool = new Pool({
-  user: 'your_postgres_user',
-  host: 'your_postgres_host',
-  database: 'your_database',
-  password: 'your_password',
+  user: 'ualadatabase_user',
+  host: 'dpg-cqe4tk9u0jms739528ig-a.oregon-postgres.render.com',
+  database: 'ualadatabase',
+  password: 'LbNL0slmNjl0SglTHCd8v7AGWNFeSc7R',
   port: 5432,
 });
 
